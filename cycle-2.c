@@ -4,10 +4,8 @@
 void delay_ms(unsigned int ms)
 {
     unsigned int i, j;
-
     for (i = 0; i < ms; i++)
-        for (j = 0; j < 20000; j++)
-            ;
+        for (j = 0; j < 20000; j++);
 }
 
 /* start the main program */
