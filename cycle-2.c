@@ -1,8 +1,7 @@
 //1. // LED blink
 #include <lpc17xx.h>
 
-    void
-    delay_ms(unsigned int ms)
+void delay_ms(unsigned int ms)
 {
     unsigned int i, j;
 
